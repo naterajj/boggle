@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="<% settings.charset %>">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>BoggleSolver</title>
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+  <script type="text/javascript" src="/javascripts/jquery.js"></script>
+  <script type="text/javascript" src="/javascripts/form.js"></script>
+</head>
+<body>
+<% content %>
+<div id="footer" class="container">
+<span>Powered by <a href="http://perldancer.org/">Dancer2</a> <% dancer_version %></span>
+</div>
+</body>
+</html>

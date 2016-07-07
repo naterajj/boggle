@@ -1,0 +1,43 @@
+<div id="header" class="container">
+    <h1>Boggle Solver</h1>
+</div>
+<div id="body">
+    <div id="title">
+        <h2>Please enter your Boggle Board</h2>
+    </div>
+    <div id="board">
+        <form name="board">
+        <table id="table1">
+        <tbody>
+          <tr>
+              <td><input id="r00" value=""></td>
+              <td><input id="r01" value=""></td>
+              <td><input id="r02" value=""></td>
+              <td><input id="r03" value=""></td>
+          </tr>
+          <tr>
+              <td><input id="r10" value=""></td>
+              <td><input id="r11" value=""></td>
+              <td><input id="r12" value=""></td>
+              <td><input id="r13" value=""></td>
+          </tr>
+          <tr>
+              <td><input id="r20" value=""></td>
+              <td><input id="r21" value=""></td>
+              <td><input id="r22" value=""></td>
+              <td><input id="r23" value=""></td>
+          </tr>
+          <tr>
+              <td><input id="r30" value=""></td>
+              <td><input id="r31" value=""></td>
+              <td><input id="r32" value=""></td>
+              <td><input id="r33" value=""></td>
+          </tr>
+        </tbody>
+        </table>
+        <input type="button" id="submit_board" value="Solve"/>
+        </form>
+    </div>
+    <div id="solution">
+    </div>
+</div>
